@@ -18,6 +18,10 @@ def main():
     rand_numbers = randomize_input(numbers, inp_numbers)
     rand_symbols = randomize_input(symbols, inp_symbols)
 
+    create_password_list(rand_letters, password_list)
+    create_password_list(rand_numbers, password_list)
+    create_password_list(rand_symbols, password_list)
+
 
 
 
