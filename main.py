@@ -22,7 +22,11 @@ def main():
     create_password_list(rand_numbers, password_list)
     create_password_list(rand_symbols, password_list)
 
+    random.shuffle(password_list)
 
+    password = create_password(password_list)
+
+    print(f'Your password is: {password}')
 
 
 if __name__ == '__main__':
