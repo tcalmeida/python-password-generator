@@ -12,6 +12,12 @@ def main():
     inp_numbers = int(input('choose number quantity: '))
     inp_symbols = int(input('choose symbol quantity: '))
 
+    password_list = []
+
+    rand_letters = randomize_input(letters, inp_letters)
+    rand_numbers = randomize_input(numbers, inp_numbers)
+    rand_symbols = randomize_input(symbols, inp_symbols)
+
 
 
 
