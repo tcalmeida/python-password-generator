@@ -11,10 +11,12 @@ def main():
 
     password_list = []
 
+    # choose random char from lists
     rand_letters = randomize_input(letters, inp_letters)
     rand_numbers = randomize_input(numbers, inp_numbers)
     rand_symbols = randomize_input(symbols, inp_symbols)
 
+    # add random char in password list
     create_password_list(rand_letters, password_list)
     create_password_list(rand_numbers, password_list)
     create_password_list(rand_symbols, password_list)
